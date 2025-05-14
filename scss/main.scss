@@ -1,0 +1,134 @@
+@import "./blocks/header";
+@import "./blocks/footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+// header
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 58px 0px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-right: 150px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4f5665;
+}
+
+.nav img {
+  margin-right: 158px;
+}
+
+.nav span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #0b132a;
+  margin-right: 30px;
+}
+.nav .button {
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #f53855;
+}
+
+// hero
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 88px;
+}
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.hero .left h1 {
+  width: 555px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: #0b132a;
+}
+.hero .left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  color: #4f5665;
+  margin: 20px 0 50px;
+}
+.hero .left .button {
+  padding: 18px 78px;
+  background: #f53838;
+  border-radius: 10px;
+  width: 250px;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 156%;
+  color: #fff;
+}
+
+// metrics
+.metrics {
+  display: flex;
+  margin-top: 103px;
+  border-radius: 10px;
+
+  .metric {
+    display: flex;
+    gap: 37px;
+    padding: 68px 130px;
+    filter: blur(114px);
+    background: #0d1025;
+    opacity: 0.06;
+
+    span {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 120%;
+      color: #0b132a;
+      margin-bottom: 4px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      color: #4f5665;
+    }
+  }
+
+  .line {
+    width: 2px;
+    background-color: #eeeff2;
+    height: 126px;
+  }
+}
